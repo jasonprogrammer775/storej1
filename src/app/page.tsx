@@ -5,25 +5,25 @@ import type { Product } from "@/types/product";
 const products: Product[] = [
   {
     id: "prod-1",
-    title: "Minimalist Desk Lamp",
-    description: "A sleek, energy-efficient lamp for your workspace.",
+    title:  "Stylish Everyday Pillow",
+    description: "Soft, supportive, and designed with modern colors to complement any room.",
     price: 39.99,
     image: "/pilow.jpg", // Place an image named lamp.jpg in your public/ folder, or use an external URL
     currency: "USD",
   },
   {
     id: "prod-2",
-    title: "Ergonomic Office Chair",
-    description: "Stay comfortable and productive with full lumbar support.",
-    price: 129.99,
+    title: "Durable Travel Backpack",
+    description: "Spacious and weather-resistant backpack, perfect for daily use or weekend adventures.",
+    price: 89.99,
     image: "/bagpack.jpg",
     currency: "USD",
   },
   {
     id: "prod-3",
-    title: "Wireless Mechanical Keyboard",
-    description: "Enjoy typing with tactile feedback and no wires.",
-    price: 89.99,
+    title: "Stylish Toothbrush",
+    description: "A minimalist toothbrush designed for comfort, control, and a clean aesthetic.",
+    price: 9.99,
     image: "/toothbrush.jpg",
     currency: "USD",
   },
