@@ -8,7 +8,7 @@ const products: Product[] = [
     title: "Minimalist Desk Lamp",
     description: "A sleek, energy-efficient lamp for your workspace.",
     price: 39.99,
-    image: "/lamp.jpg", // Place an image named lamp.jpg in your public/ folder, or use an external URL
+    image: "/pilow.jpg", // Place an image named lamp.jpg in your public/ folder, or use an external URL
     currency: "USD",
   },
   {
