@@ -16,7 +16,7 @@ const products: Product[] = [
     title: "Ergonomic Office Chair",
     description: "Stay comfortable and productive with full lumbar support.",
     price: 129.99,
-    image: "/chair.jpg",
+    image: "/bagpack.jpg",
     currency: "USD",
   },
   {
@@ -24,7 +24,7 @@ const products: Product[] = [
     title: "Wireless Mechanical Keyboard",
     description: "Enjoy typing with tactile feedback and no wires.",
     price: 89.99,
-    image: "/keyboard.jpg",
+    image: "/toothbrush.jpg",
     currency: "USD",
   },
 ];
