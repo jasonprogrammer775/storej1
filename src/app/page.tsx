@@ -2,6 +2,74 @@ import { ProductList } from "@/components/product-list/ProductList";
 import { PayPalButton } from "@/components/paypal/PayPalButton";
 import type { Product } from "@/types/product";
 
+
+
+
+
+export const metadata = {
+  title: "My Shop – Buy Unique Products Online",
+  description:
+    "Shop stylish pillows, durable backpacks, and minimalist toothbrushes. Secure checkout with PayPal. Fast shipping. Discover your new favorite essentials at My Shop.",
+  keywords: [
+    "shop",
+    "buy online",
+    "pillow",
+    "backpack",
+    "toothbrush",
+    "PayPal",
+    "store",
+    "ecommerce",
+    "storej1"
+  ],
+  openGraph: {
+    title: "My Shop – Buy Unique Products Online",
+    description:
+      "Shop stylish pillows, durable backpacks, and minimalist toothbrushes. Secure checkout with PayPal. Fast shipping. Discover your new favorite essentials at My Shop.",
+    url: "https://storej1.vercel.app/",
+    siteName: "My Shop",
+    images: [
+      {
+        url: "/og-image.jpg", // Place a suitable image in your public/ directory
+        width: 1200,
+        height: 630,
+        alt: "My Shop – Unique Products",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "My Shop – Buy Unique Products Online",
+    description:
+      "Shop stylish pillows, durable backpacks, and minimalist toothbrushes. Secure checkout with PayPal. Fast shipping. Discover your new favorite essentials at My Shop.",
+    images: ["/og-image.jpg"],
+    creator: "@yourtwitter", // Replace with your Twitter handle or remove if not needed
+  },
+  alternates: {
+    canonical: "https://storej1.vercel.app/",
+  },
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const products: Product[] = [
   {
     id: "prod-1",
@@ -31,7 +99,7 @@ const products: Product[] = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 flex flex-col items-center py-8 sm:py-16">
+    <div className="min-h-screen bg-blue-300 dark:bg-blue-950 flex flex-col items-center py-8 sm:py-16">
       <header className="mb-10">
         <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 text-center">
           My Shop
